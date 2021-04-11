@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8"/>
+	<link rel="stylesheet" type="text/css" href="style.css"/>
+</head>
+<header>
+		<h1>Untitled</h1>
+		<h6>lorem ipsum dolor sit amet</h6>
+		<ol>
+			<li><a href="#">Homepage</a></li>
+			<li><a href="#">A Dropdown Menu</a></li>
+			<li><a href="#">Two Column #1</a></li>
+			<li><a href="#">Two Column #2</a></li>
+			<li><a href="#">One Column</a></li>
+		</ol>
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed turpis sem, interdum at felis. 
+		Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci.</p>
+</header>
+<body>
+	<div class="wrapper">
+		<article class="tipkovnica">
+			<img class="tipka" src="slika1.png"/>
+			<h2>Lorem ipsum dolor sit amet consectetur</h2>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed turpis sem, interdum at felis. 
+		Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci.</p>
+		<div class="slike">
+			<img src="slika2.png"/>
+			<img src="slika3.png"/>
+			<img src="slika4.png"/>
+		</div>
+		<div class="slike2">
+			<img src="slika5.png"/>
+			<img src="slika6.png"/>
+			<img src="slika7.png"/>
+		</div>
+		</article>
+		<div class="tri-zadnja">
+			<article class="teta">
+				<img class="prva" src="slika8.png"/>
+				<h2>Lorem ipsum dolor sit amet</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer quis. 
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer quis. 
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer quis. </p>
+				<a href="https://www.tvz.hr/" class="gumb2"><img class="gumb2" src="gumb_sivi.png"></a>
+			</article>
+			<article class="priroda">
+				<img class="druga" src="slika9.png"/>
+				<h2>Consectetur adipiscing elit</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer quis. 
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer quis. 
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer quis. </p>
+				<a href="https://www.tvz.hr/" class="gumb2"><img class="gumb2" src="gumb_sivi.png"></a>
+			</article>
+			<article class="zgrade">
+				<img class="treca" src="slika10.png"/>
+				<h2>Consectetur adipiscing elit</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer quis. 
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer quis. 
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer quis. </p>
+				<a href="https://www.tvz.hr/" class="gumb2"><img class="gumb2" src="gumb_sivi.png"></a>
+			</article>
+		</div>
+		<nav class="crveni">
+			<h3>Magna dolore sed etiam consequat</h3>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed turpis sem, interdum at felis.</p>
+			<a href="https://www.tvz.hr/" class="gumb" target="_blank"><img src="gumb_narancasti.png"></a>
+		</nav>
+		<nav class="plavi">
+			<h3>Phasellus convallis scelerisque</h3>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed turpis sem, interdum at felis.</p>
+			<a href="https://www.tvz.hr/" class="gumb" target="_blank"><img src="gumb_plavi.png"></a>
+		</nav>
+		<nav class="topics">
+			<ol type="none" class="topics2"><h6>TOPICS</h6>
+				<li><a href="#">Architecture(185)</a></li>
+				<li><a href="#">Art(40)</a></li>
+				<li><a href="#">Branding(13)</a></li>
+				<li><a href="#">Design(211)</a></li>
+				<li><a href="#">Film(3)</a></li>
+				<li><a href="#">Miscellaneous(21)</a></li>
+				<li><a href="#">Motion Graphics(1)</a> </li>
+				<li><a href="#">Music(50)</a></li>
+				<li><a href="#">Packaging(15)</a></li>
+				<li><a href="#">Photography(123)</a></li>
+				<li><a href="#">Technology(18)</a></li>
+				<li><a href="#">Travel(13)</a></li>
+				<li><a href="#">Typography(9)</a></li>
+				<li><a href="#">Video(36)</a></li>
+			</ol>
+			<ol type="none" class="archives"> <h6>ARCHIVES</h6>
+				<li><a href="#">November 2011</a></li>
+				<li><a href="#">December 2011</a></li>
+				<li><a href="#">January 2012</a></li>
+				<li><a href="#">February 2012</a></li>
+				<li><a href="#">March  2012</a></li>
+				<li><a href="#">April 2012</a></li>
+				<li><a href="#">May 2012</a></li>
+				<li><a href="#">June 2012</a></li>
+				<li><a href="#">July 2012</a></li>
+				<li><a href="#">August 2012</a></li>
+				<li><a href="#">September 2012</a></li>
+			</ol>
+		</nav>
+	</div>
+</body>
+</html>
+
+html {
+	font-family: Arial;
+	background-image: url("bg01.jpg");
+	color: white;
+}
+
+header {
+	margin: 0 auto;
+	height: 50px;
+	width: 1000px;
+	/* background-color: green; */
+	padding: 5px;
+}
+header h1 {width: 150px; position: relative; margin: 0px; top:18px; } header h6 {width: 200px; position: relative; left: 140px; font-style: oblique; margin: 0px;}
+header a{color: white;}
+
+header a:link {text-decoration: none; color: white;}
+header a:visited {text-decoration: line-trough;}
+header a:hover {color: orange; border-left: 1px blue; border-right: 1px blue;}
+header a:active {}
+
+header ol {
+	width: 500px;
+	position:relative; left: 500px;
+	margin: 0px;
+	top: -19px;
+}
+
+header li {display: inline; width: 60px; font-size: 12px; margin: 0px; padding: 0px;}
+
+header p {
+	width: 1000px;
+	position: relative;
+	font-size: 20px;
+	text-align: center;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	border-top: solid 1px silver;
+	border-bottom: solid 1px silver;
+	margin: 0 auto;
+	font-weight: normal;
+}
+
+.wrapper {
+	margin: 0 auto;
+	/* background-color: pink; */
+	width: 1000px;
+	position: relative;
+	top: 130px;
+}
+
+.tipkovnica {
+	background-color: white;
+	width: 750px;
+	position: relative;
+	font-weight: normal;
+}
+
+.tipkovnica p {font-size: 12px; color: black; width:430px; padding-top: 20px; border-top: solid 1px gray; margin-left: 10px;}
+
+.tipkovnica h2 {color: darkgreen; font-weight: normal; font-size: 20px; /*padding: 10px;*/ margin-left: 10px; width: 450px;}
+
+.tipka {width: 750px; height: 300px;}
+
+.slike {
+	width: 270px;
+	position: relative; left: 458px; top: -118px;
+	display: inline;
+}
+
+.slike2 {
+	display: inline;
+	position: relative; left: 181px; top: -35px;
+}
+
+
+.crveni {
+	/* padding-top: 50px; */
+	background-color: #ff4e00;
+	width: 230px; height: 200px;
+	/* margin-left: 20px; */
+	position: absolute; left: 770px;top: 0px;
+}
+
+.crveni h3 {padding-top: 20px; padding-left: 20px; font-size: 18px; font-weight: normal;}
+.crveni p {margin-left: 20px; font-size: 12px; margin-right: 20px;}
+.gumb {margin-left: 20px;} /*.gumb_plavi {margin-left: 20px;}*/
+
+.plavi {
+	/* padding-top: 50px; */
+	background-color: #22b6ed;
+	width: 230px; height: 200px;
+	/* margin-left: 20px; */
+	position: absolute; left: 770px; top: 220px;
+}
+
+.plavi h3 {padding-top: 20px; padding-left: 20px; font-size:18px; font-weight: normal;}
+.plavi p {margin-left: 20px; font-size: 12px; margin-right: 20px;}
+
+.topics h6 {color: #22b6ed; margin:0; padding-bottom: 15px; margin-left: -40px;}
+
+.topics {
+	/*background-color: gold;*/
+	width: 222px; height: 260px;
+	position: absolute; left: 770px; top: 430px;
+	
+}
+.topics li{font-size: 12px; margin-left: -40px; margin-top: 10px;}
+.topics a {color: white;}
+
+.archives{
+	position: relative;
+	left: 130px; top: -395px;
+}
+
+.tri-zadnja {
+	/* background-color: green; */
+	width: 750px; height: 400px;
+	position: relative;
+	
+}
+
+.tri-zadnja h2 { font-size: 20px; font-weight: normal; margin: 0 10px; padding: 15px; color: green; }
+.tri-zadnja p {font-size: 12px; text-align: left; margin: 0 10px; color: black; padding: 15px;}
+
+.teta {width: 230px; background-color: white; position: absolute; top: 20px; height: 470px;}
+.prva {width: 230px; }
+
+.priroda {width: 230px; position: absolute; left: 250px; top: 20px; background-color: white; height: 470px;}
+.druga {width: 230px;}
+
+.zgrade {width: 230px; position: absolute; left: 500px; top: 20px; background-color: white; height: 470px;}
+.treca {width: 230px;}
+
+.gumb2 {margin-left: 10px;}
+
+.topics a:link {text-decoration: none;}
+.topics a:visited {text-decoration: none;}
+.topics a:hover {letter-spacing: 1px;}
+.topics a:active
+
