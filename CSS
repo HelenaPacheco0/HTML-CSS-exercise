@@ -1,0 +1,229 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	font-family: 'Istok Web', sans-serif;
+	font-size: 13px;
+	color: #8F8F8F;
+}
+h1, h2, h3 {
+	font-weight: 200;
+	color: black;
+}
+p, ol {
+	line-height: 180%;
+}
+a {
+	color: #5C5539;
+}
+a:hover {
+	letter-spacing:4px;
+	color:#5532A3;
+	font-weight:bold;
+	font-size:1.5em;
+	font-style:italic;
+	text-decoration: none;
+}
+a img {
+	border: none;
+}
+
+
+.wrapper {
+	width: 1000px;
+	margin: 0 auto;
+}
+
+/* Header */
+header {
+	overflow: hidden;
+	height: 200px;
+	background-image:url('images/gradient.png');
+}
+
+
+/* Logo */
+
+h1#logo {
+	position:relative;
+	color:white;
+	padding: 50px 0px 0px 0px;
+	background: url(images/img02.png) no-repeat left 50%;
+	text-transform: lowercase;
+	letter-spacing: -2px;
+	font-size: 3.6em;
+}
+h1#logo a {
+	text-decoration: none;
+	color: #FFFFFF;
+}
+
+form{
+	position:relative;
+	top:-50px;
+	left:800px;
+	width: 250px;
+	height: 80px;
+	color:white;
+}
+input[type="text"], input[type="password"], .width-200 {
+	width:200px;
+}
+input[type="submit"], input[type="reset"] {
+	padding:0 3px;
+}
+
+/* Page */
+#cvijece {
+	background: #FFFFFF;
+	padding: 40px 0;
+	height: 500px;
+	color: #717171;
+}
+#cvijece h2 {
+	margin: 0px;
+	padding: 0px 0px 30px 0px;
+	letter-spacing: -1px;
+	font-size: 30px;
+	color: black;
+}
+#cvijece h2 span {
+	color: #4AA02C;
+}
+#cvijece #fbox1 {
+	position:relative;
+	width: 330px;
+}
+#cvijece #fbox2 {
+	position:relative;
+	left: 350px;
+    top: -423px;
+    width: 330px;
+}
+#cvijece #fbox2 img {
+	margin-bottom: 1.5em;
+	/*-radius: 10px;*/
+}
+#cvijece #fbox3 {
+	position:relative;
+    left: 690px;
+    top: -866px;
+    width: 330px;
+}
+
+#izlozbe {
+	background: #F1F2E9;
+	padding: 20px 0;
+	height:250px;
+	padding: 50px 0px;
+	color: #8F8F8F;
+}
+#izlozbe img {
+	padding:0 20px 20px 0;
+}
+
+article#izlozba_1 {
+	position:relative;
+	top:20px;
+	left:0;
+	width:500px;
+	height:150px;
+}
+article#izlozba_2 {
+	position:relative;
+	top:-130px;
+	left:500px;
+	width:500px;
+	height:150px;
+}
+
+
+
+
+/* Button Style */
+
+.button-style {
+	display: inline-block;
+}
+
+a.link-as-button {
+	letter-spacing: 1px;
+	text-decoration: none;
+	font-weight: 300;
+	color: #FFFFFF;	
+	margin-top: 30px;
+	padding: 7px 30px;
+	background: #5532A3;
+	border: 1px solid #442881;
+	margin-top: 40px;
+	display: inline-block;
+}
+a.link-as-button:hover {
+	border-left:1px solid white;
+	border-right:1px solid white;
+	font-size:1em;
+	font-style:none;		
+}
+		
+
+
+/* List - universal */
+ul {
+	list-style: none;
+}
+ul li {
+	border-top: 1px dashed #E6E7DC;
+}
+ul a:hover {
+	text-decoration: underline;
+}
+ul .first {
+	border-top: none;
+}
+/* List Style 1 */
+ul.style1 li {
+	padding: 20px 0px;
+}
+
+/* List Style 2 */
+ul.style2 li {
+	padding: 9px 0px 9px 0px;
+}
+ul.style2 a {
+	text-decoration: underline;
+}
+
+/* Footer */
+
+footer {
+	height: 100px;
+	margin: 0 auto;
+	padding: 50px 0px 15px 0px;
+	background-image:url('images/gradient.png');
+}
+
+footer p {
+	margin: 0;
+	letter-spacing: 1px;
+	line-height: normal;
+	text-align: center;
+	color: #FFFFFF;
+}
+
+footer a:link {
+	color: #FFFFFF;
+}
+footer a:hover {
+	color: #FFFFFF;
+}
+
+
+/* List style 3 */
+
+/*
+Design by Free CSS Templates
+http://www.freecsstemplates.org
+Released for free under a Creative Commons Attribution 2.5 License
+*/
+
