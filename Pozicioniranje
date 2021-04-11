@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="style.css"/>
+</head>
+<header>
+</header>
+<body>
+<div class="wrapper">
+	<div class="plavi">
+		<div class="crveni"></div>
+		<div class="bijeli"></div>
+		<div class="bijeli2"></div>
+		<div class="zuti2"></div>
+	</div>
+	<div class="tamni">
+		<div class="zuti"></div>
+	</div>
+</div>
+</body>
+<footer>
+</footer>
+</html>
+
+/*CSS*/
+html {
+	background-color: #DAEDE2;
+}
+
+header{
+	width: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100px;
+	background-color: #333745;
+}
+
+.wrapper {
+	position: relative;
+	margin: 0 auto;
+	width: 800px;
+	
+}
+
+footer {
+	position: relative;
+	width: 100%;
+	height: 50px;
+	top: 135px;
+	left: 0px;
+	background-color: #333745;
+}
+
+.plavi {
+	background-color: #77c4d3;
+	width: 500px;
+	height: 500px;
+	position: relative;
+	top: 83px;
+	padding: 30px;
+}
+
+.crveni {
+	width: 300px;
+	height: 150px;
+	background-color: #df3c57;
+	position: absolute; top: 100px;
+}
+
+.bijeli {
+	background-color: #f2f9fb;
+	width: 240px;
+	height: 200px;
+	position: relative; top: 300px;
+}
+
+.bijeli2 {
+	background-color: #f2f9fb;
+	width: 240px;
+	height: 200px;
+	position: relative; top: 100px; left: 260px; 
+}
+
+.zuti2 {
+	background-color: #eaf299;
+	width: 275px;
+	height: 30px;
+	position: relative; top: 110px; left: 226px;
+	z-index: 2;
+}
+
+.tamni {
+	height: 550px;
+	width: 250px;
+	position: absolute; top: 120px; left: 500px; 
+	z-index: 1;
+	/* background-image: url("background-png"); */
+	background-color: #333745;
+}
+
+.zuti {
+	width: 250px;
+	height: 350px;
+	background-color: #eaf299;
+	position: relative;
+	top: 20px;
+	right: 30px;
+}
+
+/* footer {
+	width: 100%;
+	position: relative;
+	bottom: 0;
+	left: 0;
+	height: 100px;
+	background-color: #333745;
+} */
