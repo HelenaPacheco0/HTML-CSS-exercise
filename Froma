@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8"/>
+	<link rel="stylesheet" type="text/css" href="style.css"/>
+</head>
+<header>
+	<table>
+		<tr>
+			<td><a href="#"><img src="strijelica-bijela.png"></td>
+			<td>Back</a></td>
+		</tr>
+	</table>
+
+	<!-- <a class="back" href="#"><img src="strijelica-bijela.png"> Back </a>
+	<a class="download" href="#"><img src="strijelica-zelena.png"> Download form</a> -->
+</header>
+<body>
+<div class="wrapper">
+	<form>
+		<fieldset class="lorem">
+			<legend>Lorem ipsum:</legend>
+				Input One: <input class="one" type="text"><br>
+				Input Two: <input class="one" type="text"><br>
+		</fieldset>
+		
+		<fieldset class="vitae">
+			<legend>Praesent vitae:</legend>
+				<input type="checkbox"> Pellentesque fermentum tellus<br>
+				<input type="checkbox"> Maecenas at tellus<br>
+				<input type="checkbox"> Curabitur quis orci vitae velit facilisis<br>
+				<input type="checkbox"> Class aptent taciti sociosqu ad litora<br>
+		</fieldset>
+		
+		<fieldset class="vitae2">
+			<legend>Praesent vitae:</legend>
+			<input type="checkbox"> Pellentesque fermentum tellus<br>
+			<input type="checkbox"> Maecenas at tellus<br>
+			<input type="checkbox"> Curabitur quis orci vitae velit facilisis<br>
+			<input type="checkbox"> Class aptent taciti sociosqu ad litora<br>
+		</fieldset>
+		
+		<fieldset class="vitae3">
+			<legend>Praesent vitae:</legend>
+			<input type="checkbox"> Pellentesque fermentum tellus<br>
+			<input type="checkbox"> Maecenas at tellus<br>
+			<input type="checkbox"> Curabitur quis orci vitae velit facilisis<br>
+			<input type="checkbox"> Class aptent taciti sociosqu ad litora<br>
+		</fieldset>
+		
+		<fieldset class="odio">
+			<legend>Fusce odio:</legend>
+				<textarea cols="55" rows="10"></textarea><br>
+				Spam protection: 6 + 5 = <input class="spam" type="textarea">
+		</fieldset>
+		
+		<input class="submit" type="submit" value="SUBMIT"/>
+
+	</form> 
+	
+</div>
+</body>
+</html>
+
+/*CSS*/
+html {
+	background-image: url("pozadina.jpg");
+	background: cover;
+	font-family: Arial; font-size: 15px;
+}  
+
+header {
+	background-image: url("gradient.png");
+	background-repeat: repeat-x;
+	height: 50px;
+	width: 100%;
+	position: absolute; top: 0; left: 0;
+}
+
+header a{color: white;}
+
+
+table {
+	color: white;
+	width: 100px;
+	height: 27px;
+	position: absolute; left: 20px; top: 0px;
+}
+
+
+.back {
+	position: relative;
+	left: 20px;
+	width: 100px;
+	width: 26px;
+	
+}
+.back a{
+}
+.download {
+	position: relative;
+	left: 1000px;
+	width: 200px;
+}
+
+.wrapper {
+	margin: 0 auto;
+	width: 500px;
+	position: relative; top: 70px;
+}
+
+fieldset {
+	border: solid 1px #095d92;
+	background-color: #dff3ff;
+	width: 500px;
+	padding: 15px;
+	margin-top: 20px;
+}
+
+.submit {margin-top: 20px; margin-bottom: 20px;}
+
+.one {margin-top: 10px; width: 400px;}
+.spam {width: 25px;}
+
+legend {background-color: #095d92; color: white; font-weight: bold; padding: 5px;}
